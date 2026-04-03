@@ -1,0 +1,20 @@
+body {
+    background: radial-gradient(
+        circle at 0 0,
+        #65368e,
+        #582653 50vw,
+        #06004d 75vw,
+        #000
+    );
+    margin: 0;
+    width: fit-content;
+}
+h1 {
+    color: white;
+}
+p {
+    color: yellow;
+}
+a {
+    color: yellowgreen;
+}

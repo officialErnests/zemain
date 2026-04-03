@@ -1,0 +1,16 @@
+.footer {
+    height: 200px;
+    border-top: #ff00ff 5px dashed;
+    background: linear-gradient(#005555 0%, #00ffff 100%);
+    min-width: 100vw;
+    width: fit-content;
+}
+.footer--text {
+    margin-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.footer__more {
+    display: flex;
+    gap: 10px;
+}
