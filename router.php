@@ -8,6 +8,6 @@ if (array_key_exists($uri, $routes))
 } else 
 {
     http_response_code(404);
-    echo '<h1>404, <br> Page not found ;-;</h1><hr><a href="./">back</a>';
+    echo '<style>html {background-color: black;} * {color: white;}</style><h1>404, <br> Page not found ;-;</h1><hr><a href="./">back</a>';
     die();
 }

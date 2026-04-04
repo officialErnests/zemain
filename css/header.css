@@ -9,6 +9,9 @@ body {
     margin: 0;
     width: fit-content;
 }
+html {
+    background-color: black;
+}
 h1 {
     color: white;
 }
@@ -17,4 +20,12 @@ p {
 }
 a {
     color: yellowgreen;
+}
+* {
+    font-family: "Audiowide", sans-serif;
+}
+.randomizer {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
 }

@@ -1,4 +1,4 @@
 <?php
 $pageTitle = "Noob//home";
-// $customStyles = "";
+$customStyles = ["./middler.css"];
 require "./views/main/index.view.php";

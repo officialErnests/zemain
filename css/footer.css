@@ -2,7 +2,7 @@
     height: 200px;
     border-top: #ff00ff 5px dashed;
     background: linear-gradient(#005555 0%, #00ffff 100%);
-    min-width: 100vw;
+    min-width: 100%;
     width: fit-content;
 }
 .footer--text {

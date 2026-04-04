@@ -1,5 +1,5 @@
 <header class="nav">
-    <h1><span class="nav--title">NOOB-DEV.F</span>or<span class="nav-title">Y</span>our<span class="nav-title">I</span>ntrest</h1>
+    <h1><span class="nav--title">NOOB-DEV.F</span>or<span class="nav--title">Y</span>our<span class="nav--title">I</span>ntrest</h1>
     <nav>
         <a href="/">Home</a>
         <a href="/Art">Art</a>
