@@ -28,3 +28,10 @@
     font-size: 5rem;
     text-wrap-mode: nowrap;
 }
+.main__middle > p, h1 {
+    margin: 0;
+}
+.main--small {
+    font-size: 10pt;
+    color: #ffbf00;
+}

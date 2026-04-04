@@ -14,7 +14,7 @@ Array.prototype.random = function () {
 setInterval(() => {
     for (let element of NB_elementos) {
         // console.log("1")
-        if (Math.random() < 0.01) {
+        if (Math.random() < 0.1) {
         // console.log("11")
             element.textContent = NB_randomizer_list_special.random()
         } else {

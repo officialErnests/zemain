@@ -1,5 +1,5 @@
 .footer {
-    height: 200px;
+    height: 400px;
     border-top: #ff00ff 5px dashed;
     background: linear-gradient(#005555 0%, #00ffff 100%);
     min-width: 100%;
@@ -13,4 +13,5 @@
 .footer__more {
     display: flex;
     gap: 10px;
+    padding-left: 20px;
 }
