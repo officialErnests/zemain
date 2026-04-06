@@ -3,7 +3,7 @@
 
 <div class="main">
     <div class="main__middle">
-        <h1 class="main__middle--h1">WELCOME <span class="randomizer">['v']</span>_____</h1>
+        <h1 class="main__middle--h1">HI, I'm n0o0b090lv <span class="randomizer">['v']</span>_____ </h1>
         <hr class="main--divider">
         <p><span class="randomizer">['v']</span>_____ Welcome and enjoy your stay at n0o0b090lv(tm)classic <span class="randomizer">['v']</span>_____</p> 
         <p class="main--small">--> n0o0b090lv will be reffered to noob further on ;PP < --</p>

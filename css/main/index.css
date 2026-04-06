@@ -2,8 +2,8 @@
     aspect-ratio: 1/1;
     width: 50vh;
     background-color: white;
-    /* margin-top: 10vh; */
-    margin-bottom: 10vh;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
     animation: rotation;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -72,8 +72,8 @@
 }
 .main__wheele__elem__box {
     background-color: #ff0000;
-    width: 100px;
-    height: 100px;
+    width: 15vh;
+    height: 15vh;
     border-radius: 10px;
     transform: skewX(10deg);
     transition: 1s;
@@ -81,8 +81,8 @@
 .main__wheele__elem__box > * {
     transform: skewX(-10deg);
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: calc(15vh - 20px);
+    height: calc(15vh - 20px);
     margin: 0;
     top: 0;
     transition: 1s;
@@ -94,6 +94,16 @@
     transform: skewX(5deg);
 }
 .main__wheele__elem__box--img {
-    width: 100px;
-    height: 100px;
+    width: 20vh;
+    border-radius: 50%;
+    animation: rotation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+.main__wheele__elem__box--h1 {
+    color: black;
+    font-size: 4vh;
+    text-shadow: black 10vh 10vh;
 }

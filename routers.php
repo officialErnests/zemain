@@ -2,22 +2,24 @@
 return [
     "/" => "controllers/main/index.php",
 
-    "/Art" => "controllers/main/index.php",
+    "/Noob" => "controllers/noob/index.php",
+
+    "/Art" => "controllers/art/index.php",
     "/Youtube indeies TODO aka Labhrin" => "controllers/main/index.php",
 
-    "/Music" => "controllers/main/index.php",
+    "/Music" => "controllers/music/index.php",
     "/Add inspo like femtanyl, maybe feature to auto create playlist o.o" => "controllers/main/index.php",
 
-    "/Programming" => "controllers/main/index.php",
+    "/Programming" => "controllers/programming/index.php",
 
-    "/Achivements" => "controllers/main/index.php",
+    "/Achivements" => "controllers/-/index.php",
 
-    "/Blog" => "controllers/main/index.php",
+    "/Blog" => "controllers/-/index.php",
 
-    "/Engineering" => "controllers/main/index.php",
+    "/Engineering" => "controllers/-/index.php",
 
-    "/Life" => "controllers/main/index.php",
+    "/Life" => "controllers/-/index.php",
 
-    "/Misc" => "controllers/main/index.php",
+    "/Misc" => "controllers/misc/index.php",
 
 ];
