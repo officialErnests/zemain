@@ -26,7 +26,6 @@ a {
 }
 .randomizer {
     display: inline-block;
-    width: 0px;
     text-align: center;
     text-wrap-mode: nowrap;
 }
