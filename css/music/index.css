@@ -1,0 +1,71 @@
+.music__choice {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 20px;
+    aspect-ratio: 4/1;
+}
+.music__choice > * {
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.music__choice--1 {
+    background-color: #00ff00;
+    background: linear-gradient(#00ff00 0%, #ffdd00 100%);
+    transform: skewX(-10deg);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    mix-blend-mode: exclusion;
+}
+.music__choice--2 {
+    background-color: #0000ff;
+    background: linear-gradient(#0000ff 0%, #ff00dd 100%);
+    transform: skewX(10deg);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    mix-blend-mode: exclusion;
+}
+.music__choice--text {
+    font-size: 200%;
+    mix-blend-mode: exclusion;
+}
+.music__choice > *:hover{
+    animation: shake2;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-direction: reverse;
+}
+.music__choice > *:hover > .music__choice--text{
+    animation: shake;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-direction: reverse;
+}
+@keyframes shake2 {
+    0% {transform: translateX(-5px) translateY(-5px) skewX(-10deg) skewy(-10deg);}
+    10% {transform: translateX(-5px) translateY(5px) skewX(-10deg) skewy(10deg);}
+    20% {transform: translateX(5px) translateY(-5px) skewX(-10deg) skewy(10deg);}
+    30% {transform: translateX(5px) translateY(5px) skewX(-10deg) skewy(10deg);}
+    40% {transform: translateX(-5px) translateY(-5px) skewX(10deg);}
+    50% {transform: translateX(-5px) translateY(-5px) skewX(-10deg) skewy(10deg);}
+    60% {transform: translateX(-5px) translateY(5px) skewX(-10deg) skewy(-10deg);}
+    70% {transform: translateX(5px) translateY(-5px) skewX(10deg) skewy(-10deg);}
+    80% {transform: translateX(5px) translateY(5px) skewX(10deg) skewy(-10deg);}
+    90% {transform: translateX(-5px) translateY(5px) skewX(10deg) skewy(10deg);}
+    100% {transform: translateX(-5px) translateY(-5px) skewX(-10deg) skewy(-10deg);}
+}
+@keyframes shake {
+    0% {transform: translateX(-50px) translateY(-50px);}
+    25% {transform: translateX(-50px) translateY(50px);}
+    50% {transform: translateX(50px) translateY(-50px);}
+    75% {transform: translateX(50px) translateY(50px);}
+    100% {transform: translateX(-50px) translateY(-50px);}
+}

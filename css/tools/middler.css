@@ -27,6 +27,8 @@
     color: #00ff00;
     font-size: 5rem;
     text-wrap-mode: nowrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .main__middle > p, h1 {
     margin: 0;
@@ -34,4 +36,21 @@
 .main--small {
     font-size: 10pt;
     color: #ffbf00;
+}
+.main--medium {
+    font-size: 24pt;
+    color: #ffff00;
+}
+.main--big {
+    font-size: 30pt;
+    color: #00df00;
+}
+.main--divider {
+    color: #ff0000;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main--breaker {
+    height: 100px;
 }

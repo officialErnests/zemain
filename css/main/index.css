@@ -9,7 +9,9 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: relative;
-    mix-blend-mode: difference;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+    background: linear-gradient(white 0%, cyan 100%)
 }
 .main__wheele > * {
     animation: rotation;
@@ -25,10 +27,6 @@
 }
 .main__wheele > * > * {
     position: absolute;
-}
-.main--divider {
-    color: #ff0000;
-    width: 100%;
 }
 @keyframes rotation {
     0% {transform: rotateZ(0deg);}
@@ -71,7 +69,7 @@
     mix-blend-mode: darken;
 }
 .main__wheele__elem__box {
-    background-color: #ff0000;
+    background-color: #00ffff;
     width: 15vh;
     height: 15vh;
     border-radius: 10px;

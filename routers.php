@@ -8,6 +8,9 @@ return [
     "/Youtube indeies TODO aka Labhrin" => "controllers/main/index.php",
 
     "/Music" => "controllers/music/index.php",
+    "/Music/Creation" => "controllers/music/creation.php",
+    "/Music/Listening" => "controllers/music/lisen.php",
+
     "/Add inspo like femtanyl, maybe feature to auto create playlist o.o" => "controllers/main/index.php",
 
     "/Programming" => "controllers/programming/index.php",

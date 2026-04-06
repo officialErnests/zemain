@@ -1,0 +1,111 @@
+.main__wheele {
+    aspect-ratio: 1/1;
+    width: 50vh;
+    background-color: white;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
+    animation: rotation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+    background: linear-gradient(white 0%, cyan 100%)
+}
+.main__wheele > * {
+    animation: rotation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    position: relative;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main__wheele > * > * {
+    position: absolute;
+}
+.main--divider {
+    color: #ff0000;
+    width: 100%;
+}
+@keyframes rotation {
+    0% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(360deg);}
+}
+.main__wheele__elem1 {
+    position: fixed;
+    top:25%;
+    left:25%;
+    width: fit-content;
+    mix-blend-mode: difference;
+}
+.main__wheele__elem2 {
+    position: fixed;
+    top:25%;
+    right:25%;
+    width: fit-content;
+    mix-blend-mode: difference;
+}
+.main__wheele__elem3 {
+    position: fixed;
+    bottom:25%;
+    right:25%;
+    width: fit-content;
+    mix-blend-mode: difference;
+}
+.main__wheele__elem4 {
+    position: fixed;
+    bottom:25%;
+    left:25%;
+    width: fit-content;
+    mix-blend-mode: difference;
+}
+
+.main__wheele__elem5 {
+    position: fixed;
+    top:50%;
+    left:50%;
+    width: fit-content;
+    mix-blend-mode: darken;
+}
+.main__wheele__elem__box {
+    background-color: #00ffff;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 10px;
+    transform: skewX(10deg);
+    transition: 1s;
+}
+.main__wheele__elem__box > * {
+    transform: skewX(-10deg);
+    position: absolute;
+    width: calc(15vh - 20px);
+    height: calc(15vh - 20px);
+    margin: 0;
+    top: 0;
+    transition: 1s;
+}
+.main__wheele__elem__box:hover {
+    transform: skewX(-10deg);
+}
+.main__wheele__elem__box:hover > * {
+    transform: skewX(5deg);
+}
+.main__wheele__elem__box--img {
+    width: 20vh;
+    border-radius: 50%;
+    animation: rotation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+.main__wheele__elem__box--h1 {
+    color: black;
+    font-size: 4vh;
+    text-shadow: black 10vh 10vh;
+}
