@@ -15,6 +15,6 @@
             </div>
         </div>
     </div>
-    <script src="./js/randomizer.js"></script>
+    <script src="/js/randomizer.js"></script>
 </body>
 </html>

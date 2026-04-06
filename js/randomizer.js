@@ -2,7 +2,7 @@ let NB_elementos = document.getElementsByClassName("randomizer")
 const NB_randomizer_list_extra =  [">", "s", "z"]
 const NB_randomizer_list_top = ["X", ";", ":", "=", "?", "|", "!", "B", "8"]
 const NB_randomizer_list_bottom = ["D", "}", "]", ")", "/", "P", "s", "3", "v", ">"]
-const NB_randomizer_list_special = ["'~`", ";-;", ":3c", "UWU", "OWO", "^q^", "^3^", "T.T", "XXDD", "'v'"]
+const NB_randomizer_list_special = ["'~`", ";-;", ":3c", "UWU", "OWO", "^q^", "^3^", "T.T", "XXDD", "'v'", "^.^"]
 
 // Source - https://stackoverflow.com/a/24137301
 // Posted by Dino Reic, modified by community. See post 'Timeline' for change history

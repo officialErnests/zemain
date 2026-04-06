@@ -8,5 +8,5 @@
         <a href="/Programming">Programming</a>
         <a href="/Misc">Misc</a>
     </nav>
-    <a href="./" class="nav__img--a"><img src="./assets/XD_MAN.png" alt="XD_MAN"></a>
+    <a href="/" class="nav__img--a"><img src="/assets/XD_MAN.png" alt="XD_MAN"></a>
 </header>

@@ -18,10 +18,10 @@
         <p class="main--small">Pick your poision <span class="randomizer">['v']</span></p>
         <div class="main--breaker"></div>
         <div class="music__choice">
-            <a href="./Music/Creation" class="music__choice--1">
+            <a href="/Music/Creation" class="music__choice--1">
                 <p class="music__choice--text">UNGODLY<br>CREATIONS</p>
             </a>
-            <a href="./Music/Listening" class="music__choice--2">
+            <a href="/Music/Listening" class="music__choice--2">
                 <p class="music__choice--text">TASTE<br>OF<br>WRATH</p>
             </a>
         </div>
